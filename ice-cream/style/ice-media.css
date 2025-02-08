@@ -1,0 +1,134 @@
+@media (max-width:600px){
+    html,body{
+        /* overflow-x: hidden; */
+    }
+    .main{
+        height: 10vh;
+        width:auto;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+    nav{
+        visibility: hidden;
+    }
+    .img{
+        margin-left: -1em;
+        width: 100px;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        gap: .3em;
+    }
+    li{
+        list-style: none;
+        font-size: 10px;
+        padding-top: .2em;
+    }
+    .butn{
+        height:40px;
+        width: 100px;
+        margin-top: .2em;
+        background-color: pink;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        margin-left: -13em;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .active{
+        color: pink;
+        text-decoration: underline;
+    }
+    .ice{
+        height: 90vh;
+        width: 100%;
+        background-color:white;
+        margin-top: 2em;
+    }
+    #img{
+        height: 300px;
+        width: 250px;
+        float: right;
+        margin-top: 3em;
+    }
+    #buttn{
+        color: pink;
+    }
+    .info{
+        width: 90px;
+        margin-top: 10em;
+        margin-left: -3em;
+        /* background-color: black; */
+        height: 270px;
+    }
+    h5{
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    padding-top: 2em;
+    }
+    p{
+        text-align: left;
+        color: black;
+        font-size: 10px;
+    }
+    .btnnn{
+        height: 40px;
+        width: 140px;
+        background-color: pink;
+        margin-left: 0em;
+    }
+    .image{
+        height: 310px;
+        width: 250px;
+        background-color: pink;
+        float: right;
+        border-radius: 50%;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      .spn{
+        visibility:visible;
+        margin-left:-2em;
+        /* background-color: black; */
+        margin-top: 0em;
+        color: black;
+      }
+}

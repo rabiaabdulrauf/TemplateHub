@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    --font-family: "Playfair Display", sans-serif;
+    --second-family: "Inter", sans-serif;
+}
+.main{
+    background:#e3f1ff;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#logo{
+    height: 60px;
+    width: 170px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    background-color:#e3f1ff;
+    height: 90vh;
+    width: 400px;
+    justify-content: center;
+    margin: 0 0 0 4em;
+}
+p{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 44px;
+line-height: 90%;
+letter-spacing: 0em;
+color: #000;
+
+}
+.head{
+    width: 350px;
+   justify-content: space-evenly;
+}
+.para{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 30px;
+line-height: 90%;
+color: #000;
+}
+.images{
+    position: relative;
+    top: -85%;
+    /* float: right; */
+    left: 70%;
+}
+.pic-one{
+    position: absolute;
+   
+    transform: rotate(-7deg);
+    float: right;
+}
+.pict-one{
+    height:550px ;
+    width:400px ;
+}
+.image-one{
+    position: absolute;
+    top: 15%;
+    /* float: right; */
+    left: 60%;
+    transform: rotate(-9deg);
+   
+}
+.pict-two{
+    height:500px ;
+    width: 400px;
+}
+
+.image-two{
+    position: relative;
+    top: -80%;
+    left: 50%;
+    transform: rotate(-10deg);
+    
+}
+.pict-three{
+    height: 500px;
+    width: 350px;
+}

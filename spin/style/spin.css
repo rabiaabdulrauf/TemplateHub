@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}
+.header{
+    background-color:white;
+    height: 80vh;
+    width: 100%;
+ 
+  
+}
+.nav{
+  background-color: black;
+  gap: 46vw;
+  height: 50px;
+  width: 100%;
+}
+.navbar{
+    display: flex;
+    /* gap: 5vw; */
+    /* background-color: rgb(220, 232, 232); */
+    height: 70px;
+    /* background-color: black; */
+}
+.right{
+    display: flex;
+    /* gap: 1vw; */
+    width: 150px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1vw;
+}
+li{
+  color: white;
+}
+img{
+    height: 35px;
+    width: 100px;
+    margin-top: -1.2em;
+}
+ button{
+    height: 50px;
+    width: 150px;
+ }
+ .btn1{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+.btn2{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+.btn1:hover{
+  background-color: yellow;
+  color: black;
+}
+.btn2:hover{
+  background-color:dodgerblue;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  height: 370px;
+  gap: 3vw;
+  background: linear-gradient( rgb(136, 164, 225),rgb(249, 250, 250));
+}
+.pict{
+  height: 340px;
+  width: 550px;
+  margin-top:1em;
+}
+.btn3{
+  background-color: dodgerblue;
+  border: none;
+  outline: none;
+  color: white;
+}
+.btn3:hover{
+  background-color: blue;
+}
+.build{
+  margin-top: 2em;
+  width: 800px;
+  /* background-color: aquamarine; */
+}
+h1{
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.spn{
+  visibility: hidden;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
