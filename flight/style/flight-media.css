@@ -1,0 +1,145 @@
+@media (max-width:600px) {
+    body{
+        background-image:url(../assets/airplane-inside.jpg) ;
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        object-fit: cover;
+    }
+    .flight{
+        display: flex;
+        flex-direction: column;
+        gap: 0em;
+    }
+    .direction{
+        height: 80vh;
+        width: 320px;
+        background-color: rgba(0, 0, 0, 0.233);
+        margin-left: 2em;
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        gap: 4em;
+        /* opacity: .6; */
+
+    }
+    .form{
+        height: 68vh;
+        width:auto;
+       background-color:#edededa6;
+       margin-top: 2em;
+    }
+    .logo{
+        height: 50px;
+        width: 200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      margin-top: 3em;
+    }
+    .social{
+        height: 300px;
+        width: 70%;
+        /* background-color: green; */
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    span{
+        font-size:40px;
+        font-weight: bold;
+       color: white;
+    }
+    .logo-pic{
+        height: 50px;
+        width: 50px;
+    }
+    h1{
+        text-align: center;
+        color: white;
+    }
+    .facebook, .insta, .channel{
+        height: 90px;
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        opacity: 1;
+        border: 2px solid white;
+    }
+    .facebook:hover{
+        background-color: antiquewhite;
+        cursor: pointer;
+    }
+    .channel:hover{
+        background-color: antiquewhite;
+        cursor: pointer;
+    }
+    .insta:hover{
+        background-color: antiquewhite;
+        cursor: pointer;
+    }
+    i{
+        color:white;
+       font-size: 30px;
+       border: 1px solid white;
+       height: 30px;
+       width: 30px;
+       /* padding-left: .7em;
+       padding-top: .2em; */
+       margin-left: 1em;
+       padding: .2em;
+       margin-top: .1em;
+    }
+    h2{
+        padding-top: .3em;
+        color: white;
+        font-size: 18px;
+    }
+    h5{
+        text-align: center;
+        padding-top: 1em;
+        font-size: 20px;
+    }
+    hr{
+        margin-top: 1em;
+        width: 90%;
+    margin-left: 1em;
+    }
+    select{
+        width: 150px;
+        height: 40px;
+        background-color: rgba(186, 179, 179, 0.169);
+        margin-bottom: 2em;
+    }
+    input{
+        width: 150px;
+        height: 40px;
+        background-color: rgba(186, 179, 179, 0.169);
+        border: transparent;
+        border: 1px solid black;
+        margin-bottom: 1em;
+    }
+    form{
+        display: flex;
+        flex-direction: row;
+        gap: 3em;
+       margin-top: 1em;
+    }
+    .left{
+        margin-left: 1em;
+    }
+    h6{
+        font-size: 13px;
+        padding-bottom: .5em;
+    }
+    button{
+        height: 40px;
+        width: 130px;
+       background-color: #ffe066; 
+       margin-top: 1.4em;
+       border: none;
+       border-radius: 5px;   
+    }
+}
